@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Basic Meta Tags -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Site Information -->
+  <title>Pixel Puranas: History Revived</title>
+
+  <!-- External Stylesheets -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap" rel="stylesheet">
+
+  <!-- Custom Stylesheets -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+
+  <style>
+    /* General Styles */
+    body {
+      font-family: 'Poppins', sans-serif;
+      color: #333;
+    }
+
+    /* Contact Section */
+    .contact_section {
+      padding: 60px 0;
+    }
+
+    .contact_section h2 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    .contact_form {
+      background: #f9f9f9;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .contact_form input,
+    .contact_form textarea {
+      width: 100%;
+      padding: 15px;
+      margin-bottom: 15px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      font-size: 1rem;
+    }
+
+    .contact_form button {
+      background: #007bff;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      font-size: 1.2rem;
+      cursor: pointer;
+      width: 100%;
+      text-align: center;
+      transition: background 0.3s ease;
+    }
+
+    .contact_form button:hover {
+      background: #0056b3;
+    }
+
+    /* Contact Info */
+    .footer_contact .contact-item {
+      text-align: center;
+      margin: 15px;
+      padding: 20px;
+      background: #f9f9f9;
+      border-radius: 8px;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .footer_contact .contact-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .footer_contact .contact-item img {
+      width: 40px;
+      margin-bottom: 10px;
+    }
+
+    /* Social Media Links */
+    .social-media .social-item {
+      display: inline-block;
+      margin: 0 10px;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .social-media .social-item img {
+      width: 40px;
+    }
+
+    .social-media .social-item:hover {
+      transform: scale(1.2);
+    }
+
+    /* Footer */
+    .footer-container {
+      background: #f1f1f1;
+      padding: 20px;
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .footer-container p {
+      margin: 0;
+      font-size: 0.9rem;
+      color: #555;
+    }
+  </style>
+</head>
+
+<body class="sub_page">
+  <!-- Hero Section -->
+  <div class="hero_area">
+    <!-- Header Section -->
+    <header class="header_section">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg custom_nav-container pt-3">
+          <a class="navbar-brand mr-5" href="index.html">
+            <img src="images/logo.png" alt="Pixel Puranas Logo">
+            <span>Pixel Puranas: History Revived</span>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+              <li class="nav-item"><a class="nav-link" href="content.html">Content</a></li>
+              <li class="nav-item active"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+  </div>
+
+<!-- contact section -->
+<section class="contact_section">
+  <div class="container">
+    <div class="heading_container">
+      <h2>
+        Contact Us
+      </h2>
+    </div>
+  </div>
+  <div class="container contact_bg">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <div class="contact_form">
+          <form onsubmit="submitFeedback(event)">
+            <input type="text" id="name" placeholder="Name" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <textarea id="message" placeholder="Message" class="message_input" required></textarea>
+            <button type="submit">
+              Send
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="col-md-6 text-center">
+        <div class="img-box">
+          <img src="images/contact-img.png" alt="Contact Us">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Footer -->
+  <footer class="footer-container">
+    <p>&copy; 2024 Pixel Puranas. All Rights Reserved.</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script>
+    async function submitFeedback(event) {
+  event.preventDefault(); // Prevent form from reloading the page
+
+  const name = document.getElementById('name').value.trim();
+  const email = document.getElementById('email').value.trim();
+  const message = document.getElementById('message').value.trim();
+
+  if (!name || !email || !message) {
+    alert("All fields are required.");
+    return;
+  }
+
+  const feedbackData = { name, email, message };
+
+  try {
+    const response = await fetch('http://127.0.0.1:5000/feedback', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(feedbackData),
+    });
+
+    const result = await response.json();
+    if (response.ok) {
+      alert(result.success);
+      // Clear form inputs
+      document.getElementById('name').value = '';
+      document.getElementById('email').value = '';
+      document.getElementById('message').value = '';
+    } else {
+      alert(result.error);
+    }
+  } catch (error) {
+    console.error('Error submitting feedback:', error);
+    alert('An error occurred while submitting feedback.');
+  }
+}
+
+  </script>
+</body>
+
+</html>
