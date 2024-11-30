@@ -1,1 +1,9 @@
-
+flask
+flask-cors
+transformers
+diffusers
+torch
+pillow
+moviepy
+gtts
+fpdf
