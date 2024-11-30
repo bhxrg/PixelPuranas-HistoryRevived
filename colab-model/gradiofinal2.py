@@ -25,8 +25,8 @@ from reportlab.pdfgen import canvas
 from reportlab.lib.pagesizes import letter
 
 # API Keys (Replace with your own keys)
-API_KEY = 'AIzaSyCetobd1oY916BjwmlMiblU_ba6tA99GA4'
-SEARCH_ENGINE_ID = 'e12dec4d75e674774'  # Google Custom Search Engine ID
+API_KEY = 'YOUR_API_KEY'
+SEARCH_ENGINE_ID = 'YOUR_SEARCH_ENGINE_ID'  # Google Custom Search Engine ID
 
 # Initialize the text generation model
 tokenizer = AutoTokenizer.from_pretrained('EleutherAI/gpt-neo-1.3B')
