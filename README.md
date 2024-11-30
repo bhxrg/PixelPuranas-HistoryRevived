@@ -53,6 +53,9 @@ Here is a comprehensive `README.md` file for the **Pixel Puranas** project:
    ```bash
    pip install -r requirements.txt
    ```
+
+ADD API key and SEARCH ENGINE ID BEFORE RUNNING 
+
 3. Run the project:
    ```bash
    python main.py
