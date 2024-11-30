@@ -28,8 +28,8 @@ import time  # For performance metrics
 import gradio as gr
 
 # Set up API keys (replace with your actual keys)
-API_KEY = 'AIzaSyCetobd1oY916BjwmlMiblU_ba6tA99GA4'
-SEARCH_ENGINE_ID = 'e12dec4d75e674774'
+API_KEY = 'YOUR_API_KEY'
+SEARCH_ENGINE_ID = 'YOUR_SEARCH_ENGINE_ID'
 
 # Initialize the YouTube API client
 youtube = build('youtube', 'v3', developerKey=API_KEY)
