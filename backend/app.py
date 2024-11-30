@@ -19,8 +19,8 @@ app = Flask(__name__)
 CORS(app)  # Enables CORS for all routes
 
 # Your YouTube API Key
-API_KEY = 'AIzaSyCetobd1oY916BjwmlMiblU_ba6tA99GA4'
-SEARCH_ENGINE_ID = 'e12dec4d75e674774'
+API_KEY = 'YOUR_API_KEY'
+SEARCH_ENGINE_ID = 'YOUR_SEARCH_ENGINE_ID'
 
 # Create YouTube API client
 youtube = build('youtube', 'v3', developerKey=API_KEY)
