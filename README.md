@@ -1,5 +1,3 @@
-Here is a comprehensive `README.md` file for the **Pixel Puranas** project:
-
 
 # Pixel Puranas
 
